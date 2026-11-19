@@ -37,8 +37,11 @@ E. Teknik Analisis Data
 F. Instrumen Penelitian
    1. Kisi-Kisi 4 Tahap George Polya ke Tugas Pemrograman (Skor Ideal 100)
    2. Uji Kualitas: Validitas Isi (Expert Judgment), Validitas Butir (Pearson Product Moment r >= 0.30), Reliabilitas (Cronbach Alpha r11 >= 0.70), Tingkat Kesukaran (P), dan Daya Pembeda (D)
-DAFTAR PUSTAKA BAB III (Rujukan Sugiyono 2013, Hake 1999, Polya/Tang 2020, Jiang 2025, Kostopoulos 2025, Woollaston 2026)
 ```
+
+> **ATURAN TATA LETAK DAFTAR PUSTAKA:**  
+> Bab 3 berakhir langsung pada **F. Instrumen Penelitian** (poin F.2 Pengujian Kualitas Instrumen).  
+> **Dilarang menaruh Daftar Pustaka per bab.** Seluruh rujukan digabungkan ke dalam satu bagian tersendiri (**DAFTAR PUSTAKA**) di bagian paling akhir skripsi setelah **BAB V KESIMPULAN DAN SARAN**.
 
 ---
 

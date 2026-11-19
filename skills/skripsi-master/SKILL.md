@@ -17,6 +17,9 @@ Gunakan skill ini sebagai pemandu utama dalam seluruh proses penyusunan dan peni
    - Font Times New Roman 12 pt, 1.5 spasi, rata Justify, First Line Indent 1.27 cm.
    - Seluruh istilah non-KBBI dicetak miring (*italic*).
    - Penomoran butir menggunakan Word List Numbering (reset di setiap sub-bagian).
+4. **Aturan Letak Daftar Pustaka:**
+   - Daftar Pustaka HANYA ADA SATU dan diletakkan di akhir keseluruhan skripsi (setelah Bab V Kesimpulan dan Saran).
+   - Dilarang keras menaruh bagian "DAFTAR PUSTAKA" di akhir Bab I, Bab II, maupun Bab III.
 
 ## Peta Kerja Bab (Roadmap)
 - **Bab 1:** [[skills/bab1-pendahuluan/SKILL.md]] -> Pola 10 paragraf latar belakang, rumusan, tujuan, manfaat.

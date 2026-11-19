@@ -8,26 +8,26 @@ description: Panduan penyusunan Bab 2 Kajian Teori dengan struktur 5 sub-poin pe
 ## Sistematika Bab 2 (Sesuai Draf ACC EXACT)
 ```text
 BAB II KAJIAN TEORI
-A. AI Agentic
+A. Penggunaan Alur Kerja AI Agentic
    1. Pengertian
    2. Ciri-Ciri
    3. Jenis-Jenis
    4. Fungsi
    5. Manfaat
-B. Kemampuan
-   1. Pengertian
-   2. Ciri-Ciri
-   3. Jenis-Jenis
-   4. Fungsi
-   5. Manfaat
+B. Kemampuan dalam Perspektif Pemrosesan Kognitif
 C. Problem Solving
    1. Pengertian
    2. Ciri-Ciri
    3. Jenis-Jenis
    4. Fungsi
    5. Manfaat
+   6. Indikator Problem Solving
 D. Hipotesis Penelitian
 ```
+
+> **CATATAN STRUKTUR PENTING:**  
+> 1. Bab II berakhir langsung pada **D. Hipotesis Penelitian** (tanpa kerangka berpikir).  
+> 2. **TIDAK ADA DAFTAR PUSTAKA DI AKHIR BAB II.** Daftar Pustaka adalah bagian tunggal yang hanya diletakkan di akhir keseluruhan skripsi (setelah Bab V).
 
 ## Aturan Penulisan Sub-Poin (1 - 5)
 Setiap sub-poin (Pengertian, Ciri-Ciri, Jenis-Jenis, Fungsi, Manfaat) pada ketiga variabel wajib memuat:
