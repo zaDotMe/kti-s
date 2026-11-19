@@ -1,0 +1,66 @@
+{
+  "informasi_penelitian": {
+    "penulis": "Nama Siswa / Mahasiswa",
+    "institusi": "SMK / SMA / Universitas",
+    "program_studi": "Konsentrasi Keahlian / Jurusan",
+    "tahun_akademik": "2026/2027",
+    "pembimbing": "Nama Guru / Dosen Pembimbing"
+  },
+  "konstruk_ilmiah": {
+    "judul": "Pengaruh [Variabel Bebas X] terhadap [Variabel Terikat Y] pada [Subjek/Populasi]",
+    "jenis_penelitian": "Kuantitatif Eksperimen Semu",
+    "masalah_lapangan": "Penurunan performa / kesulitan siswa pada topik materi tertentu berdasarkan observasi awal",
+    "variabel_bebas_X": {
+      "nama": "Penggunaan Model / Media / Alat X",
+      "indikator": ["Indikator X1", "Indikator X2", "Indikator X3"]
+    },
+    "variabel_terikat_Y": {
+      "nama": "Kemampuan / Hasil Belajar Y",
+      "indikator": ["Indikator Y1", "Indikator Y2", "Indikator Y3", "Indikator Y4"]
+    },
+    "rumusan_masalah": [
+      "Bagaimana profil kemampuan Y siswa sebelum dan sesudah diberikan perlakuan X?",
+      "Apakah terdapat pengaruh yang signifikan dari perlakuan X terhadap peningkatan kemampuan Y siswa dibandingkan pembelajaran konvensional?"
+    ],
+    "tujuan_penelitian": [
+      "Mengetahui profil kemampuan Y siswa sebelum dan sesudah diberikan perlakuan X.",
+      "Menguji signifikansi pengaruh perlakuan X terhadap peningkatan kemampuan Y siswa dibandingkan pembelajaran konvensional."
+    ]
+  },
+  "metodologi": {
+    "pendekatan": "Kuantitatif",
+    "desain": "Nonequivalent Control Group Design",
+    "populasi": {
+      "deskripsi": "Seluruh siswa kelas target",
+      "total": 100
+    },
+    "sampel": {
+      "teknik": "Cluster Purposive Sampling",
+      "kelompok_eksperimen": { "kelas": "Kelas A", "jumlah": 35 },
+      "kelompok_kontrol": { "kelas": "Kelas B", "jumlah": 35 },
+      "total": 70,
+      "persentase_populasi": "70% (Memenuhi kaidah 50% + 1)"
+    },
+    "jadwal_pertemuan": 6,
+    "instrumen": [
+      "Tes Uraian Pemecahan Masalah (Pretest & Posttest)",
+      "Rubrik Penilaian Analitik",
+      "Lembar Observasi Keterlaksanaan Pembelajaran",
+      "Angket Respon Siswa (Skala Likert 4 Poin)"
+    ],
+    "analisis_data": {
+      "deskriptif": ["Mean", "Median", "Modus", "Standar Deviasi", "Varians"],
+      "prasyarat": ["Uji Normalitas Shapiro-Wilk (alpha=0.05)", "Uji Homogenitas Levene (alpha=0.05)"],
+      "gain": "Normalized Gain (N-Gain) Hake",
+      "uji_hipotesis": "Independent Samples t-test (df = n1+n2-2, satu arah) atau Mann-Whitney U"
+    }
+  },
+  "progress_bab": {
+    "bab1": { "status": "completed", "file": "draf/Bab1.docx" },
+    "bab2": { "status": "completed", "file": "draf/Bab2.docx" },
+    "bab3": { "status": "completed", "file": "draf/Bab3.docx" },
+    "bab4": { "status": "pending", "file": null },
+    "bab5": { "status": "pending", "file": null }
+  },
+  "daftar_pustaka_pool": []
+}
