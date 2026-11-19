@@ -1,11 +1,26 @@
 ---
 name: bab3-metodologi-penelitian
-description: Panduan dan generator otomatis Bab 3 Metodologi Penelitian (A-F) serta penyusunan instrumen penelitian lengkap (Pretest/Posttest, Rubrik Polya, Lembar Observasi Sintaks AI Agentic, dan Angket Skala Likert).
+description: Panduan dan generator otomatis Bab 3 Metodologi Penelitian (A-F) serta penyusunan instrumen penelitian lengkap dengan protokol wajib interogasi populasi/sampel riil.
 ---
 
 # SKILL: Bab 3 Metodologi Penelitian & Instrumen Lengkap
 
 Skill ini mengorkestrasi penyusunan **Bab III Metodologi Penelitian** skripsi kuantitatif serta seluruh paket instrumen pengumpulan data lapangan secara otomatis, presisi, dan bebas halusinasi sesuai standar Prof. Dr. Sugiyono (2013).
+
+---
+
+## ⚠️ PROTOKOL WAJIB: INTEROGASI POPULASI & SAMPEL RIIL (ANTI-HALUSINASI)
+
+> **DILARANG KERAS MENGARANG ATAU MENGASUMSIKAN JUMLAH KELAS DAN JUMLAH SISWA!**  
+> Sebelum menyusun Sub-bab C (Populasi dan Sampel), AI **WAJIB** menanyakan secara terperinci kepada pengguna:
+> 
+> 1. **Berapa jumlah rombongan belajar (rombel/kelas)** yang ada pada tingkatan/jurusan target di sekolah tersebut? (Contoh: Apakah ada 2 kelas, 3 kelas, atau 4 kelas?)
+> 2. **Berapa jumlah siswa riil di masing-masing rombel/kelas tersebut?** (Contoh: RPL 1 = 35 siswa, RPL 2 = 35 siswa).
+> 3. **Berapa total populasi ($N$) gabungan seluruh kelas tersebut?**
+> 4. **Kelas mana yang ditetapkan sebagai Kelas Eksperimen** (diberi perlakuan/media baru) dan **mana yang menjadi Kelas Kontrol** (model konvensional)?
+> 5. **Apakah menggunakan Total Sampling / Sampling Jenuh (100% populasi jika kelas terbatas)** atau **Cluster Random / Purposive Sampling**?
+>
+> Simpan seluruh data riil ini ke `research_profile.json` sebelum naskah Bab III digenerate.
 
 ---
 

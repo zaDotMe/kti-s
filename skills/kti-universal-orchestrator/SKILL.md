@@ -60,8 +60,31 @@ Ajukan **4 Pertanyaan Pemantik Penemuan Masalah**:
 
 ---
 
-## 3. Checklist Sebelum Memulai Penulisan Bab
+## 3. Protokol Interogasi Wajib Pengguna (Sebelum Penulisan Bab)
+
+### A. Interogasi Bab II: Aturan Eksklusif Hipotesis vs Kerangka Berpikir
+Sebelum menulis Bab II, AI wajib mengonfirmasi jenis penelitian pengguna untuk menentukan struktur penutup Bab II:
+- **Jika KUANTITATIF (Uji Pengaruh / Korelasi / Eksperimen / Komparasi):**
+  - **Penutup Bab II:** HANYA menggunakan **D. Hipotesis Penelitian** ($H_0$ dan $H_a$).
+  - **Kerangka Berpikir:** DITIADAKAN (Dilarang ada, agar tidak redundan dengan perumusan hipotesis statistik).
+- **Jika KUALITATIF / DESKRIPTIF / R&D (Non-Uji Statistik):**
+  - **Penutup Bab II:** HANYA menggunakan **D. Kerangka Berpikir** (bagan alur konsep penalaran peneliti).
+  - **Hipotesis Penelitian:** DITIADAKAN (Dilarang ada, karena kualitatif tidak menguji angka apriori).
+> *Kaidah Sugiyono (2013): Di Bab II HANYA BOLEH ADA SATU di antara keduanya, TIDAK BOLEH dua-duanya.*
+
+### B. Interogasi Bab III: Data Riil Populasi & Sampel (Anti-Halusinasi)
+Sebelum menyusun Bab III, AI **DILARANG MENGARANG DATA KELAS/SISWA**. AI wajib menanyakan:
+1. *"Ada berapa rombongan belajar (kelas) di jurusan/tingkatan tersebut di sekolah Anda?"*
+2. *"Berapa jumlah siswa yang tercatat aktif di masing-masing kelas tersebut secara presisi?"* (Misal: Kelas A = 35 siswa, Kelas B = 35 siswa).
+3. *"Dari kelas-kelas itu, kelas mana yang ditunjuk sebagai Kelas Eksperimen dan mana yang Kelas Kontrol?"*
+4. *"Apakah seluruh siswa di kedua kelas itu akan dijadikan sampel (Total Sampling 100%), atau ada kriteria khusus?"*
+
+---
+
+## 4. Checklist Sebelum Memulai Penulisan Bab
 - [ ] Profil tersimpan di `research_profile.json`.
 - [ ] Pengguna paham perbedaan variabel bebas ($X$) dan terikat ($Y$).
+- [ ] Konfirmasi struktur Bab II: Memilih Hipotesis (Kuantitatif) ATAU Kerangka Berpikir (Kualitatif).
+- [ ] Data riil rombel, jumlah siswa per kelas, dan teknik sampling telah dikonfirmasi (Bukan angka tebakan AI).
 - [ ] Instrumen pengukur telah ditentukan jenisnya.
-- [ ] Tidak ada pencampuran format daftar pustaka di dalam bab.
+- [ ] Tidak ada pencampuran format daftar pustaka di dalam bab (Daftar Pustaka tunggal hanya setelah Bab V).
