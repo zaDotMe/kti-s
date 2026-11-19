@@ -1,74 +1,97 @@
 ---
 name: bab3-metodologi-penelitian
-description: Panduan penyusunan Bab 3 Metodologi Penelitian kuantitatif eksperimen dengan struktur A sampai F (Metode, Desain, Populasi-Sampel 50%+1, Teknik Penelitian, Analisis Data, Instrumen).
+description: Panduan dan generator otomatis Bab 3 Metodologi Penelitian (A-F) serta penyusunan instrumen penelitian lengkap (Pretest/Posttest, Rubrik Polya, Lembar Observasi Sintaks AI Agentic, dan Angket Skala Likert).
 ---
 
-# SKILL: Bab 3 Metodologi Penelitian
+# SKILL: Bab 3 Metodologi Penelitian & Instrumen Lengkap
 
-Skill ini mengatur penyusunan **Bab III Metodologi Penelitian** skripsi kuantitatif secara presisi sesuai struktur khusus yang ditentukan.
+Skill ini mengorkestrasi penyusunan **Bab III Metodologi Penelitian** skripsi kuantitatif serta seluruh paket instrumen pengumpulan data lapangan secara otomatis, presisi, dan bebas halusinasi sesuai standar Prof. Dr. Sugiyono (2013).
 
-## Struktur Wajib Bab III (A - F)
+---
+
+## 1. Sistematika Baku Bab III (A sampai F)
+
 ```text
 BAB III METODOLOGI PENELITIAN
 A. Metode Penelitian
+   1. Pendekatan Kuantitatif Filsafat Positivisme (Sugiyono, 2013: 7)
+   2. Metode Eksperimen Deduktif Kausal Bivariat (X -> Y)
+   3. Operasionalisasi Variabel (X: Alur Kerja AI Agentic, Y: Problem Solving Polya)
 B. Desain Penelitian
+   1. Quasi-Experimental Design (Alasan Intact Group / Rombel SMK)
+   2. Nonequivalent Control Group Design (Sugiyono, 2013: 79)
+   3. Tabel Paradigma Desain (O1 - X - O2 vs O3 - [—] - O4)
 C. Populasi dan Sampel
+   1. Populasi Target: 3 Rombel Kelas XI RPL SMKN 1 Cirebon (N = 108 siswa)
+   2. Kaidah Representativitas Sampel Minimal 50% + 1 (Batas minimal 55 siswa)
+   3. Teknik Sampling: Cluster Purposive Sampling (XI RPL 1 Eksperimen = 36 siswa, XI RPL 2 Kontrol = 36 siswa, total n = 72 siswa / 66,67%)
 D. Teknik Penelitian
+   1. Tes Kinerja Pemrograman (Pretest & Posttest)
+   2. Observasi Terstruktur Keterlaksanaan Pembelajaran AI Agentic di Lab
+   3. Angket Respon / Kuesioner Penerimaan Teknologi & Kognitif (Skala Likert 4 Poin)
 E. Teknik Analisis Data
+   1. Statistik Deskriptif (Mean, Median, Modus, Standar Deviasi, Varians)
+   2. Uji Prasyarat Analisis (Normalitas Shapiro-Wilk n≤50 & Homogenitas Levene)
+   3. Uji Peningkatan Kemampuan (N-Gain Score Hake, 1999: g >= 0.70 Tinggi, 0.30 <= g < 0.70 Sedang, g < 0.30 Rendah)
+   4. Uji Hipotesis Inferensial (Independent Samples t-test df=70 Sig.(2-tailed)/2 < 0.05 atau Mann-Whitney U)
 F. Instrumen Penelitian
+   1. Kisi-Kisi 4 Tahap George Polya ke Tugas Pemrograman (Skor Ideal 100)
+   2. Uji Kualitas: Validitas Isi (Expert Judgment), Validitas Butir (Pearson Product Moment r >= 0.30), Reliabilitas (Cronbach Alpha r11 >= 0.70), Tingkat Kesukaran (P), dan Daya Pembeda (D)
+DAFTAR PUSTAKA BAB III (Rujukan Sugiyono 2013, Hake 1999, Polya/Tang 2020, Jiang 2025, Kostopoulos 2025, Woollaston 2026)
 ```
 
 ---
 
-## Rincian Per Bagian
+## 2. Paket Instrumen Lapangan Wajib (Field Instruments)
 
-### A. Metode Penelitian
-- **Pilihan Acuan:** Memilih dan merujuk secara mendalam pada **Sugiyono** (atau diperbandingkan dengan Ali Muto).
-- **Karakteristik:** Pendekatan **Kuantitatif** berlandaskan filsafat positivisme. Data berupa angka numerik yang diuji melalui analisis statistik inferensial untuk membuktikan ada tidaknya hubungan kausal sebab-akibat antara variabel $X$ (*AI agentic*) dan $Y$ (*problem solving*).
+Setiap penelitian eksperimen kuantitatif di SMK mewajibkan 4 paket instrumen yang terverifikasi:
 
-### B. Desain Penelitian
-- **Klasifikasi:** Penelitian **Eksperimen Semu (*Quasi-Experimental Design*)**.
-- **Alasan Pemilihan (Konteks SMK):** Peneliti tidak dapat merombak/mengacak siswa secara individual (*pure random*) karena akan mengganggu jadwal pelajaran dan struktur rombel kelas XI RPL SMKN 1 Cirebon.
-- **Model Desain:** **Nonequivalent Control Group Design** (Sugiyono, 2013).
-  $$\begin{array}{lccc}
-  \text{Kelompok Eksperimen} & O_1 & X & O_2 \\
-  \hline
-  \text{Kelompok Kontrol} & O_3 & - & O_4
-  \end{array}$$
-  - $O_1, O_3$: Tes awal (*pretest*)
-  - $X$: Perlakuan menggunakan alur kerja *AI agentic*
-  - $-$: Pembelajaran konvensional
-  - $O_2, O_4$: Tes akhir (*posttest*)
+### Paket 1: Naskah Soal Tes Problem Solving (Pretest & Posttest)
+- **Format:** Studi kasus rekayasa perangkat lunak autentik.
+- **Kasus 1:** Logika Pemrosesan Data & Validasi Input (Struktur Kontrol, Array/Objek, Penanganan Exception).
+- **Kasus 2:** Perancangan Modul CRUD & Integrasi Basis Data / API Backend.
+- **Tingkat Kesukaran:** Setara antara Pretest dan Posttest (*parallel forms*) untuk mencegah bias instrumen.
 
-### C. Populasi dan Sampel
-- **Populasi:** Seluruh siswa kelas XI Konsentrasi Keahlian Rekayasa Perangkat Lunak (RPL) SMKN 1 Cirebon tahun ajaran berjalan.
-- **Sampel (Aturan 50% + 1):**
-  - Mengambil minimal **50% + 1** dari total populasi siswa / rombel kelas XI RPL untuk menjamin keterwakilan yang kuat dan memenuhi syarat sampel kuantitatif.
-  - Penentuan rombel dilakukan menggunakan teknik **Purposive Sampling** atau **Cluster Sampling** dengan memastikan kedua kelas (eksperimen & kontrol) memiliki kondisi awal yang homogen.
+### Paket 2: Rubrik Penilaian Analitik 4 Tahap George Polya
+1. **Memahami Masalah (*Understanding the Problem* - Skor 0-25):**
+   - Skor 25: Mampu mendeskripsikan masukan (*input*), luaran (*output*), batasan masalah (*constraints*), dan *edge cases* secara lengkap dan tepat.
+   - Skor 15: Memahami sebagian besar masalah namun melewatkan batasan kritis.
+   - Skor 5: Hanya mencatat ulang soal tanpa memahami alur data.
+   - Skor 0: Tidak menuliskan identifikasi masalah.
+2. **Merencanakan Penyelesaian (*Devising a Plan* - Skor 0-25):**
+   - Skor 25: Merancang dekomposisi logika, struktur data, pseudocode/alur modul secara terstruktur dan efisien.
+   - Skor 15: Rencana ada tetapi kurang terdekomposisi atau struktur data kurang efisien.
+   - Skor 5: Rencana parsial dan tidak logis.
+   - Skor 0: Tidak membuat perancangan rencana.
+3. **Melaksanakan Rencana (*Carrying out the Plan* - Skor 0-25):**
+   - Skor 25: Kode program tertulis valid secara sintaksis, modular, bersih (*clean code*), dan seluruh fungsionalitas berjalan sukses.
+   - Skor 15: Kode berjalan tetapi terdapat galat kecil (*minor bug*) pada kondisi tertentu.
+   - Skor 5: Kode program macet (*syntax error / runtime crash*).
+   - Skor 0: Tidak ada kode program yang ditulis.
+4. **Memeriksa Kembali (*Looking Back / Debugging* - Skor 0-25):**
+   - Skor 25: Melakukan pengujian dengan minimal 3 *test cases* (normal, ekstrim, galat), melakukan refactor, dan optimasi efisiensi.
+   - Skor 15: Menguji kode hanya pada masukan normal tanpa pengetesan kasus batas.
+   - Skor 5: Melakukan penelusuran galat tetapi tidak mampu menemukan solusi perbaikan.
+   - Skor 0: Tidak melakukan pemeriksaan ulang luaran program.
 
-### D. Teknik Penelitian
-- **Teknik Utama:**
-  1. **Tes Kinerja / Uraian Studi Kasus Pemrograman:** Diberikan saat *pretest* dan *posttest* untuk mengukur 4 indikator *problem solving* Polya.
-  2. **Observasi (*Observation*):** Lembar observasi keterlaksanaan intervensi *AI agentic workflow* pada proses pembelajaran di laboratorium komputer.
-  3. **Kuesioner / Angket (Opsional Pendukung):** Digunakan untuk mengukur persepsi kemudahan (*perceived ease of use*) dan keterlibatan kognitif siswa selama berinteraksi dengan *AI agentic*.
+### Paket 3: Lembar Observasi Keterlaksanaan Pembelajaran AI Agentic
+Observasi keterlaksanaan alur kerja agentik (*fidelity of treatment*) pada kelas eksperimen dengan 5 tahapan siklus:
+1. *Goal Formulation & Task Prompting:* Siswa merumuskan spesifikasi masalah ke dalam instruksi terarah.
+2. *Autonomous Task Decomposition:* Siswa meninjau rencana sub-tugas yang didekomposisi oleh agen AI.
+3. *Tool Invocation & Execution:* Siswa mengamati dan memandu eksekusi eksternal (linter, compiler, debugger).
+4. *Self-Reflection & Debugging:* Siswa memverifikasi koreksi mandiri yang diajukan agen terhadap logika galat.
+5. *Human-in-the-Loop Review:* Siswa mengambil keputusan akhir sebelum mengintegrasikan kode ke dalam repositori tugas.
 
-### E. Teknik Analisis Data
-Mengacu pada Sugiyono (Bab 8 & 9):
-1. **Statistik Deskriptif:** Mean, median, modus, standar deviasi, varians, dan tabel distribusi frekuensi.
-2. **Uji Prasyarat Analisis:**
-   - **Uji Normalitas:** Menguji apakah sebaran skor berdistribusi normal (Shapiro-Wilk / Kolmogorov-Smirnov, taraf signifikansi $\alpha = 0{,}05$).
-   - **Uji Homogenitas:** Menguji kesamaan varians antar kelompok (Levene's Test, taraf signifikansi $\alpha = 0{,}05$).
-3. **Uji Peningkatan Kemampuan (N-Gain Score):**
-   $$g = \frac{\text{Posttest} - \text{Pretest}}{\text{Skor Maksimal} - \text{Pretest}}$$
-4. **Uji Hipotesis (Statistik Inferensial):**
-   - Jika data normal dan homogen: **Independent Samples t-test**.
-   - Jika data tidak berdistribusi normal: **Mann-Whitney U Test**.
-   - Kriteria: Tolak $H_0$ jika nilai $\text{Sig. (2-tailed)} < 0{,}05$.
+### Paket 4: Angket / Kuesioner Respon Siswa (Skala Likert 4 Poin)
+Menghindari opsi netral (1 = Sangat Tidak Setuju, 2 = Tidak Setuju, 3 = Setuju, 4 = Sangat Setuju) dengan 4 dimensi utama:
+1. **Persepsi Kemudahan (*Perceived Ease of Use*):** Interaksi dengan alur kerja AI agentic mudah dipahami dan tidak membebani mental.
+2. **Persepsi Kebergunaan (*Perceived Usefulness*):** Agen AI membantu memecahkan kebuntuan logika algoritma dan mempercepat pemahaman modul.
+3. **Regulasi Kognitif & Metakognisi (*Metacognitive Regulation*):** Agen AI memicu siswa berpikir kritis saat meninjau hasil evaluasi kode, bukan sekadar menyalin kode.
+4. **Efikasi Diri Pemrograman (*Programming Self-Efficacy*):** Peningkatan rasa percaya diri dalam menuntaskan tugas pemrograman mandiri.
 
-### F. Instrumen Penelitian
-1. **Kisi-kisi Instrumen Tes:** Mengacu pada 4 tahapan Polya (Memahami Masalah, Merencanakan Solusi, Menjalankan Rencana/Debugging, Meninjau Ulang Hasil).
-2. **Pengujian Kualitas Instrumen (Sugiyono Bab 6 & 7):**
-   - **Uji Validitas Isi (*Content Validity*):** *Expert judgment* oleh guru pengampu dan dosen ahli.
-   - **Uji Validitas Konstruk/Butir:** Korelasi *Product Moment Pearson* ($r_{\text{hitung}} > r_{\text{tabel}}$).
-   - **Uji Reliabilitas:** Rumus *Cronbach's Alpha* ($\alpha \ge 0{,}70$).
-   - **Uji Tingkat Kesukaran & Daya Pembeda Soal.**
+---
+
+## 3. Skrip Otomasi Pembangkit Dokumen
+- Generator Word Python: `C:\Users\USER\kti-s\templates\skripsi_docx_generator.py`
+- Pembangkit Bab 3 Master: `C:\Users\USER\build_bab3_metodologi.py`
+- Pembangkit Paket Instrumen Lengkap: `C:\Users\USER\build_paket_instrumen_bab3.py`
