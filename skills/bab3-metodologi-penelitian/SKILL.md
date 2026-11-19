@@ -22,18 +22,19 @@ B. Desain Penelitian
    2. Nonequivalent Control Group Design (Sugiyono, 2013: 79)
    3. Tabel Paradigma Desain (O1 - X - O2 vs O3 - [—] - O4)
 C. Populasi dan Sampel
-   1. Populasi Target: 3 Rombel Kelas XI RPL SMKN 1 Cirebon (N = 108 siswa)
-   2. Kaidah Representativitas Sampel Minimal 50% + 1 (Batas minimal 55 siswa)
-   3. Teknik Sampling: Cluster Purposive Sampling (XI RPL 1 Eksperimen = 36 siswa, XI RPL 2 Kontrol = 36 siswa, total n = 72 siswa / 66,67%)
+   1. Populasi Target: 2 Rombel Kelas XI RPL SMKN 1 Cirebon (N = 70 siswa)
+   2. Kaidah Keterwakilan Penuh (Total Sampling / Sampling Jenuh 100%)
+   3. Teknik Sampling: Total Purposive Sampling (XI RPL 1 Eksperimen = 35 siswa, XI RPL 2 Kontrol = 35 siswa, total n = 70 siswa / 100%)
 D. Teknik Penelitian
    1. Tes Kinerja Pemrograman (Pretest & Posttest)
    2. Observasi Terstruktur Keterlaksanaan Pembelajaran AI Agentic di Lab
    3. Angket Respon / Kuesioner Penerimaan Teknologi & Kognitif (Skala Likert 4 Poin)
 E. Teknik Analisis Data
    1. Statistik Deskriptif (Mean, Median, Modus, Standar Deviasi, Varians)
-   2. Uji Prasyarat Analisis (Normalitas Shapiro-Wilk n≤50 & Homogenitas Levene)
+   2. Uji Prasyarat Analisis (Normalitas Shapiro-Wilk n=35≤50 & Homogenitas Levene)
    3. Uji Peningkatan Kemampuan (N-Gain Score Hake, 1999: g >= 0.70 Tinggi, 0.30 <= g < 0.70 Sedang, g < 0.30 Rendah)
-   4. Uji Hipotesis Inferensial (Independent Samples t-test df=70 Sig.(2-tailed)/2 < 0.05 atau Mann-Whitney U)
+   4. Uji Hipotesis Inferensial (Independent Samples t-test df=35+35-2=68 Sig.(2-tailed)/2 < 0.05 atau Mann-Whitney U)
+   5. Analisis Korelasi & Komparasi Sub-Kelompok Intensitas Penggunaan AI Agentic vs Nilai
 F. Instrumen Penelitian
    1. Kisi-Kisi 4 Tahap George Polya ke Tugas Pemrograman (Skor Ideal 100)
    2. Uji Kualitas: Validitas Isi (Expert Judgment), Validitas Butir (Pearson Product Moment r >= 0.30), Reliabilitas (Cronbach Alpha r11 >= 0.70), Tingkat Kesukaran (P), dan Daya Pembeda (D)

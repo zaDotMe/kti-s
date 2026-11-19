@@ -14,8 +14,11 @@ Pedoman teknis penyusunan Bab III sesuai struktur A–F:
   - Kelas Kontrol: $O_3 \rightarrow - \rightarrow O_4$
 
 ## C. Populasi dan Sampel
-- **Populasi:** Seluruh siswa kelas XI RPL SMKN 1 Cirebon.
-- **Ketentuan Sampel (50% + 1):** Mengambil sampel representatif minimal $50\% + 1$ dari total siswa kelas XI RPL melalui penentuan rombongan belajar (misal 2 rombel: XI RPL 1 sebagai kelas eksperimen dan XI RPL 2 sebagai kelas kontrol yang setara/homogen).
+- **Populasi:** Seluruh siswa kelas XI Konsentrasi Keahlian RPL SMKN 1 Cirebon tahun ajaran berjalan, terdiri atas 2 rombel dengan total 70 siswa (XI RPL 1 = 35 siswa, XI RPL 2 = 35 siswa).
+- **Ketentuan Sampel (Total Sampling / Sampling Jenuh 100%):** Karena populasi relatif terbatas (2 rombel), seluruh anggota populasi dijadikan sampel penelitian (Sugiyono, 2013: 85):
+  - **Kelas Eksperimen:** XI RPL 1 (35 siswa) yang memperoleh perlakuan alur kerja *AI agentic*.
+  - **Kelas Kontrol:** XI RPL 2 (35 siswa) yang memperoleh pembelajaran konvensional.
+  - Total sampel: $n = 70\text{ siswa}$ (mencakup 100% populasi tanpa bias penarikan sampel).
 
 ## D. Teknik Penelitian
 1. **Tes (Utama):** Tes uraian studi kasus pemrograman saat *pretest* dan *posttest* (indikator Polya).
