@@ -36,7 +36,7 @@ Gunakan skill ini sebagai pemandu utama dalam seluruh proses penyusunan, peninja
    - Menuntun 10 paragraf piramida terbalik (kondisi ideal $\rightarrow$ fakta lapangan $\rightarrow$ gap $\rightarrow$ solusi $\rightarrow$ judul), rumusan masalah, tujuan, dan manfaat.
 3. **Bab 2 (Kajian Teori):** [[skills/bab2-kajian-teori/SKILL.md]]
    - Membedah teori variabel X & Y dengan minimal 3 ahli riil per konstruk + sintesis mandiri.
-   - Merumuskan hipotesis penelitian (tanpa kerangka berpikir jika ditiadakan).
+   - **Kaidah Mutlak Sugiyono:** Hanya ada SATU di antara Hipotesis ATAU Kerangka Berpikir. Kuantitatif = Hipotesis Penelitian saja (tanpa kerangka berpikir); Kualitatif = Kerangka Berpikir saja (tanpa hipotesis). Dilarang ada Daftar Pustaka di Bab II.
 4. **Bab 3 (Metodologi Penelitian):** [[skills/bab3-metodologi-penelitian/SKILL.md]]
    - Menetapkan metode (Quasi-Experiment, PTK, R&D, Survei) dan desain penelitian.
    - Penentuan populasi dan sampel representatif (kaidah 50% + 1 atau Slovin).

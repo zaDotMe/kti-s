@@ -15,6 +15,7 @@ Gunakan skill ini sebagai **gerbang awal** setiap kali berinteraksi dengan pengg
 2. **Pengguna Wajib Mengerti:** Jangan langsung mengetikkan seluruh bab tanpa konfirmasi. Ajak pengguna mengambil keputusan kritis mengenai variabel, populasi, dan instrumennya.
 3. **Penyimpanan State Tunggal (`research_profile.json`):** Seluruh data kunci (judul, variabel X & Y, populasi, sampel, jenis instrumen) disimpan dan diperbarui pada `research_profile.json`.
 4. **Aturan Daftar Pustaka:** Bab 1 s.d. Bab 4 **TIDAK MEMILIKI DAFTAR PUSTAKA**. Daftar pustaka hanya ada satu di akhir naskah setelah Bab V.
+5. **Kaidah Eksklusif Bab II (Sugiyono):** Di Bab II **HANYA BOLEH ADA SATU ANTARA HIPOTESIS ATAU KERANGKA BERPIKIR**. Jika penelitian **Kuantitatif** (menguji variabel) $\rightarrow$ gunakan **Hipotesis Penelitian** (kerangka berpikir ditiadakan). Jika penelitian **Kualitatif/Deskriptif** (menemukan makna/pola) $\rightarrow$ gunakan **Kerangka Berpikir** (hipotesis ditiadakan). Dilarang memasukkan keduanya sekaligus!
 
 ---
 

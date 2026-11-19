@@ -14,6 +14,8 @@ Dokumen ini menjelaskan cara kerja dan cara menggunakan **KTI-Agent Universal Fr
    Siswa tidak hanya menerima teks jadi, tetapi diedukasi melalui analogi bahasa awam dan simulasi pertanyaan sidang penguji di setiap akhir bab.
 4. **Single Centralized Bibliography:**
    Daftar Pustaka **hanya ada satu** di paling akhir dokumen skripsi (setelah Bab V). Bab I, II, III, dan IV tidak memuat daftar pustaka terpisah.
+5. **Kaidah Eksklusif Bab II (Sugiyono):**
+   Di Bab II **hanya boleh ada SATU antara Hipotesis Penelitian ATAU Kerangka Berpikir** (dilarang keduanya sekaligus). Penelitian **Kuantitatif** (uji pengaruh/komparasi) wajib menggunakan **Hipotesis** (tanpa kerangka berpikir); penelitian **Kualitatif/Deskriptif** menggunakan **Kerangka Berpikir** (tanpa hipotesis).
 
 ---
 
