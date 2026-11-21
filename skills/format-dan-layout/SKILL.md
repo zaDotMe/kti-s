@@ -25,6 +25,12 @@ description: Standar layout halaman Word, tipografi, penomoran otomatis bertingk
 - **Spasi Paragraf:** Space Before 0 pt, Space After 0 pt.
 - **Indentasi Awal Paragraf:** $1{,}27\text{ cm}$ (First Line Indent).
 
+## Format Tabel (Tabel Standar Akademik Anti-Reject)
+- **Garis Border:** Wajib memiliki garis tepi dan garis pembagi sel hitam solid (*single line*, tebal $0{,}5\text{ pt}$ / `sz="4"`, warna `#000000`). Dilarang membiarkan tabel transparan/tanpa border karena akan tampak kosong/hilang di Word dan berisiko langsung di-reject penguji.
+- **Bantalan Sel (Padding/Cell Margins):** Wajib diberikan padding atas-bawah (4 pt / 80 dxa) dan kiri-kanan (6 pt / 120 dxa) agar teks tidak menempel kaku ke garis border.
+- **Font Tabel:** Times New Roman ukuran 10–11 pt dengan spasi 1.0 (*single*), space before/after 2 pt.
+- **Judul Tabel:** Diletakkan di atas tabel, rata tengah, bold, ukuran 11 pt (contoh: `Tabel 3.1 Desain Penelitian...`).
+
 ## Penomoran Poin (List Numbering)
 - Selalu gunakan list numbering Word XML atau indentasi hanging rapi ($1{,}27\text{ cm}$ dengan first line $-0{,}63\text{ cm}$ atau $-1{,}27\text{ cm}$).
 - Dilarang membuat spasi manual atau karakter tab tanpa tab-stop yang menyebabkan teks bergeser melenceng.

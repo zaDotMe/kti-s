@@ -103,6 +103,10 @@ class KTIDocumentBuilder:
         table = self.doc.add_table(rows=len(rows_data) + 1, cols=len(headers))
         table.alignment = WD_TABLE_ALIGNMENT.CENTER
         
+        # Terapkan border hitam tegas (single 0.5 pt) dan margin sel agar tidak ditolak pembimbing
+        self.apply_table_borders(table)
+        self.apply_table_margins(table)
+        
         # Header
         for col_idx, h in enumerate(headers):
             cell = table.cell(0, col_idx)
@@ -127,6 +131,40 @@ class KTIDocumentBuilder:
                 r.font.name = 'Times New Roman'
                 r.font.size = Pt(10)
         return table
+
+    @staticmethod
+    def apply_table_borders(table, color="000000", sz="4", val="single"):
+        """Menambahkan border tegas pada tabel Word (w:tblBorders)."""
+        tblPr = table._tbl.tblPr
+        existing = tblPr.find('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}tblBorders')
+        if existing is not None:
+            tblPr.remove(existing)
+        
+        borders_xml = f'''<w:tblBorders xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+            <w:top w:val="{val}" w:sz="{sz}" w:space="0" w:color="{color}"/>
+            <w:left w:val="{val}" w:sz="{sz}" w:space="0" w:color="{color}"/>
+            <w:bottom w:val="{val}" w:sz="{sz}" w:space="0" w:color="{color}"/>
+            <w:right w:val="{val}" w:sz="{sz}" w:space="0" w:color="{color}"/>
+            <w:insideH w:val="{val}" w:sz="{sz}" w:space="0" w:color="{color}"/>
+            <w:insideV w:val="{val}" w:sz="{sz}" w:space="0" w:color="{color}"/>
+        </w:tblBorders>'''
+        tblPr.append(parse_xml(borders_xml))
+
+    @staticmethod
+    def apply_table_margins(table, top_d=80, bottom_d=80, left_d=120, right_d=120):
+        """Menambahkan bantalan teks (padding/margin sel) agar tulisan tidak menabrak garis border."""
+        tblPr = table._tbl.tblPr
+        existing = tblPr.find('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}tblCellMar')
+        if existing is not None:
+            tblPr.remove(existing)
+            
+        cell_mar_xml = f'''<w:tblCellMar xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+            <w:top w:w="{top_d}" w:type="dxa"/>
+            <w:bottom w:w="{bottom_d}" w:type="dxa"/>
+            <w:left w:w="{left_d}" w:type="dxa"/>
+            <w:right w:w="{right_d}" w:type="dxa"/>
+        </w:tblCellMar>'''
+        tblPr.append(parse_xml(cell_mar_xml))
 
     def save_and_patch(self):
         """
