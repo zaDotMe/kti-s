@@ -30,29 +30,28 @@ Skill ini mengorkestrasi penyusunan **Bab III Metodologi Penelitian** skripsi ku
 BAB III METODOLOGI PENELITIAN
 A. Metode Penelitian
    1. Pendekatan Kuantitatif Filsafat Positivisme (Sugiyono, 2013: 7)
-   2. Metode Eksperimen Deduktif Kausal Bivariat (X -> Y)
-   3. Operasionalisasi Variabel (X: Alur Kerja AI Agentic, Y: Problem Solving Polya)
+   2. Metode Kausal-Komparatif (Ex-Post Facto) Mengamati Fenomena Adopsi AI Lapangan
+   3. Operasionalisasi Variabel (X: Penggunaan Alur Kerja AI Agentic, Y: Problem Solving Polya DPK)
 B. Desain Penelitian
-   1. Quasi-Experimental Design (Alasan Intact Group / Rombel SMK)
-   2. Nonequivalent Control Group Design (Sugiyono, 2013: 79)
-   3. Tabel Paradigma Desain (O1 - X - O2 vs O3 - [—] - O4)
+   1. Desain Kausal-Komparatif Dua Kelompok Pengukuran Awal-Akhir (Static Group Pretest-Posttest Design)
+   2. Nilai Awal DPK Semester 1 (Pretest Alami Pra-Adopsi AI O1 & O3) vs Nilai Akhir DPK Semester 2 (Posttest Alami Pasca-Adopsi AI O2 & O4)
+   3. Tabel Paradigma Desain Penelitian Kausal-Komparatif Ex-Post Facto
 C. Populasi dan Sampel
    1. Populasi Target: 2 Rombel Kelas XI RPL SMKN 1 Cirebon (N = 70 siswa)
    2. Kaidah Keterwakilan Penuh (Total Sampling / Sampling Jenuh 100%)
-   3. Teknik Sampling: Total Purposive Sampling (XI RPL 1 Eksperimen = 35 siswa, XI RPL 2 Kontrol = 35 siswa, total n = 70 siswa / 100%)
+   3. Pemilahan Subjek via Angket Verifikasi Adopsi AI (Kelompok Pengguna AI n1 vs Kelompok Non-Pengguna n2)
 D. Teknik Penelitian
-   1. Tes Kinerja Pemrograman (Pretest & Posttest)
-   2. Observasi Terstruktur Keterlaksanaan Pembelajaran AI Agentic di Lab
-   3. Angket Respon / Kuesioner Penerimaan Teknologi & Kognitif (Skala Likert 4 Poin)
+   1. Dokumentasi Nilai Ujian Prestasi Koding DPK (Semester 1 & Semester 2)
+   2. Angket Daring Verifikasi Adopsi AI Agentic (Google Form 4 Butir Pertanyaan Faktual Terarah)
 E. Teknik Analisis Data
    1. Statistik Deskriptif (Mean, Median, Modus, Standar Deviasi, Varians)
-   2. Uji Prasyarat Analisis (Normalitas Shapiro-Wilk n=35≤50 & Homogenitas Levene)
+   2. Uji Prasyarat Analisis (Normalitas Shapiro-Wilk n≤50 & Homogenitas Levene)
    3. Uji Peningkatan Kemampuan (N-Gain Score Hake, 1999: g >= 0.70 Tinggi, 0.30 <= g < 0.70 Sedang, g < 0.30 Rendah)
-   4. Uji Hipotesis Inferensial (Independent Samples t-test df=35+35-2=68 Sig.(2-tailed)/2 < 0.05 atau Mann-Whitney U)
-   5. Analisis Korelasi & Komparasi Sub-Kelompok Intensitas Penggunaan AI Agentic vs Nilai
+   4. Uji Hipotesis Komparatif (Independent Samples t-test df=n1+n2-2 Sig.(2-tailed)/2 < 0.05 atau Mann-Whitney U)
+   5. Analisis Ragam Perangkat AI Agentic vs Capaian Prestasi
 F. Instrumen Penelitian
-   1. Kisi-Kisi 4 Tahap George Polya ke Tugas Pemrograman (Skor Ideal 100)
-   2. Uji Kualitas: Validitas Isi (Expert Judgment), Validitas Butir (Pearson Product Moment r >= 0.30), Reliabilitas (Cronbach Alpha r11 >= 0.70), Tingkat Kesukaran (P), dan Daya Pembeda (D)
+   1. Kisi-Kisi 4 Tahap George Polya Soal Ujian Prestasi DPK (Skor Maksimal 100)
+   2. Uji Kualitas Instrumen Ujian: Validitas Isi (Expert Judgment Keselarasan CP/ATP) dan Standarisasi Penilaian
 ```
 
 > **ATURAN TATA LETAK DAFTAR PUSTAKA:**  
